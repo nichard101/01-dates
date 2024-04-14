@@ -54,15 +54,6 @@ Run with the following command:
 
 for a custom testing file. To use the original testing data, replace **[filename].txt** with **in.txt**.
 
-<<<<<<< HEAD
-## Dev Diary
-
-### Creating test data
-
-My test data is grouped into two sections: valid and invalid dates. Valid dates are dates which perfectly conform to the criteria detailed above, and invalid dates are everything else.
-
-When writing my test data I tried to 
-=======
 ## Dev Log
 
 When first beginning to write the test data, I had trouble thinking of examples of errors in incorrect dates, because I was too focused on the mindset of proving dates were **correct** instead. I had initially only covered the basic errors, such as numbers being out of the valid range for that value. However, with some helpful advice from Reuben and my peers I eventually began to expand my thinking to strictly test for different formatting errors, starting with the realization that my code allowed leading and trailing whitespaces and other separators. Eventually I managed to code all of these restrictions, and it was then just a matter of testing them.
